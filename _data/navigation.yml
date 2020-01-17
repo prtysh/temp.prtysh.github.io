@@ -1,0 +1,12 @@
+- name: '> Home'
+  link: /
+- name: '> About'
+  link: /about.html
+# - name: Blog
+  # link: /blog.html
+- name: '> Portfolio'
+  link: /portfolio.html
+- name: '> Music'
+  link: /music.html
+- name: '> Drawings'
+  link: /drawings.html

@@ -1,0 +1,15 @@
+<nav id="navigation"> 
+  <!-- <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}> Home </a> -->
+  <!-- <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>  About </a> -->
+
+  <!-- {% for item in site.data.navigation %} -->
+  <!--   <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}> -->
+  <!--     {{ item.name }} -->
+  <!--   </a> -->
+  <!-- {% endfor %} -->
+
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% elsif page.url != item.link %} class="navbar" {% endif %}>{{ item.name }}</a>
+  {% endfor %}
+
+</nav>
