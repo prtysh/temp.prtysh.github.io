@@ -30,7 +30,7 @@ body { background-color: #fffafa; color: #586E75; position: absolute; font-famil
 .fa:hover { opacity: 0.4; }
 
 /* Facebook */
-.fa-instagram { background: #5851db; color: #fd1d1d; }
+.fa-instagram { background: #f56040; color: #5851db; }
 
 .fa-youtube { background: #282828; color: #FF0000; }
 
@@ -48,7 +48,7 @@ iframe { padding: 1rem; }
 
 .active, .accordion:hover { background-color: #ccc; }
 
-.panel { padding: 0 1rem; max-height: 0; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; }
+.panelx { padding: 0 1rem; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; }
 
 div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; }
 

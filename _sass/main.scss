@@ -106,8 +106,10 @@ body {
 
 /* Facebook */
 .fa-instagram{
-    background:#5851db;
-    color: #fd1d1d;
+    // background:#5851db;
+    // color: #fd1d1d;
+    background: #f56040;
+    color:#5851db;
 }
 
 .fa-youtube {
@@ -155,9 +157,9 @@ iframe {
     background-color: #ccc;
 }
 
-.panel {
+.panelx {
     padding: 0 1rem;
-    max-height: 0;
+    // max-height: 0;
     overflow: hidden;
     text-align: right;
     transition: max-height 0.2s ease-out;
