@@ -48,7 +48,7 @@ iframe { padding: 1rem; }
 
 .active, .accordion:hover { background-color: #ccc; }
 
-.panel { padding: 0 1rem; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; }
+.panel { padding: 0 1rem; max-height: 0; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; }
 
 div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; }
 
