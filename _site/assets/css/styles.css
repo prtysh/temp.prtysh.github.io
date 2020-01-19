@@ -18,27 +18,13 @@ body { background-color: #fffafa; color: #586E75; position: absolute; font-famil
 
 #navigation { overflow: hidden; background-color: #333; }
 
-/* Navbar links */
 .sticky { position: fixed; top: 0; width: 100%; }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content { padding-top: 2rem; }
 
-.fa { padding: 1rem; font-size: 2rem !important; width: 2rem; text-align: center; text-decoration: none; border-radius: 25%; opacity: 0.9; }
+.fa { padding: 1rem; font-size: 2rem !important; width: 2rem; text-align: center; text-decoration: none; border-radius: 25%; opacity: 0.9; color: #586e75; }
 
-/* Add a hover effect if you want */
 .fa:hover { opacity: 0.4; }
-
-/* Facebook */
-.fa-instagram { background: #f56040; color: #5851db; }
-
-.fa-youtube { background: #282828; color: #FF0000; }
-
-.fa-soundcloud { background: #e3e0c8; color: #ff7700; }
-
-.fa-deviantart { background: #D4dFd1; color: #05CC46; }
-
-.fa-github { background: #211f1f; color: #7dbbe6; }
 
 .content { padding: 1rem 10rem 1rem 10rem; }
 

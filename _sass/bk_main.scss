@@ -10,11 +10,19 @@
 
 body {
     background-color: #fffafa;
+    // background-image: url("assets/images/mainimg.jpg");
     color: #586E75;
     position: absolute;
+    // font-family: 'Changa', sans-serif;
+    // font-family: 'Philosopher', sans-serif;
+    // font-family: 'Advent Pro', sans-serif;
+    // font-family: 'IBM Plex Mono', monospace;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
+    // font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto Mono', monospace;
     margin: 0px;
+    // overflow: hidden;
     overflow: scroll;
     top: 0px;
     bottom: 0px;
@@ -46,6 +54,11 @@ body {
 
 .footer {
     position: fixed;
+    // left: 0;
+    // bottom: 0;
+    // width: 100%;
+    // color: white;
+    // text-align: center;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -63,12 +76,15 @@ body {
     background-color: #333;
 }
 
+/* Navbar links */
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 2rem;
 }
@@ -81,11 +97,44 @@ body {
     text-decoration: none;
     border-radius: 25%;
     opacity:0.9;
-    color:#586e75;
 }
 
+/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.4;
+}
+
+/* Facebook */
+.fa-instagram{
+    // background:#5851db;
+    // color: #fd1d1d;
+    // background: #f56040;
+    color:#5851db;
+}
+
+.fa-youtube {
+    // background: #282828;
+    color: #FF0000;
+}
+
+.fa-soundcloud {
+    // background: #e3e0c8;
+    color: #ff7700;
+}
+
+.fa-deviantart {
+    // background: #D4dFd1;
+    color: #05CC46;
+}
+
+.fa-github {
+    // background:#211f1f;
+    color: #7dbbe6;
+}
+
+.fa-bandcamp{
+    // background:#211f1f;
+    color: #7dbbe6;
 }
 
 .content {
