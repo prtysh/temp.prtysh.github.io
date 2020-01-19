@@ -54,7 +54,7 @@ div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; bor
 
 div.gallery:hover { border: 1px solid #777; }
 
-div.gallery img { width: 100%; height: auto; border-radius: 1rem; }
+div.gallery img { width: 100%; height: auto; border-radius: 1rem 1rem 0rem 0rem; }
 
 div.desc { padding: 1rem; text-align: center; }
 
