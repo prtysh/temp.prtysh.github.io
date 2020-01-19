@@ -40,74 +40,74 @@ body {
     font-size: 1.5rem;
     padding: 2rem;
     transition: all 1s ease;
- }
+}
 
 .navbar:hover {
-     color: orange;
- }
+    color: orange;
+}
 
 .navbar.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 .footer {
-  position: fixed;
-  // left: 0;
-  // bottom: 0;
-  // width: 100%;
-  // color: white;
-  // text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    position: fixed;
+    // left: 0;
+    // bottom: 0;
+    // width: 100%;
+    // color: white;
+    // text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .footer a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
 #navigation{
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #333;
 }
 
 /* Navbar links */
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .fa {
-  padding: 1rem;
-  font-size: 2rem !important;
-  width: 2rem;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 25%;
-  opacity:0.9;
+    padding: 1rem;
+    font-size: 2rem !important;
+    width: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    opacity:0.9;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 /* Facebook */
 .fa-instagram{
-  background:#5851db;
-  color: #fd1d1d;
+    background:#5851db;
+    color: #fd1d1d;
 }
 
 .fa-youtube {
@@ -138,70 +138,84 @@ iframe {
     padding: 1rem;
 }
 .accordion {
-  background-color: #586E75;
-  color:#fffafa;
-  cursor: pointer;
-  padding: 1rem;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 1.2rem;
-  transition: 0.4s;
-  border-radius: 1rem 1rem 0rem 0rem; 
+    background-color: #586E75;
+    color:#fffafa;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.4s;
+    border-radius: 1rem 1rem 0rem 0rem; 
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 .panel {
-  padding: 0 1rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 div.gallery {
-  margin: 1rem;
-  border: 1px solid #ccc;
-  float: left;
-  width: 20%;
-  border-radius: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+    border-radius: 1rem;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius:1rem;
+    width: 100%;
+    height: auto;
+    border-radius:1rem;
 }
 
 div.desc {
-  padding: 1rem;
-  text-align: center;
+    padding: 1rem;
+    text-align: center;
 }
 
 .iframe-container {
-  overflow: hidden;
-  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
-  padding-top: 56.25%;
-  position: relative;
+    overflow: hidden;
+    // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+    padding-top: 56.25%;
+    position: relative;
 }
 
 .iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 /* 4x3 Aspect Ratio */
 .iframe-container-4x3 {
-  padding-top: 75%;
+    padding-top: 75%;
+}
+
+.aboutimg {
+    width: 100%;
+    border-radius:1rem;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+}
+
+figcaption {
+    width:100%;
 }
