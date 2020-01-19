@@ -2,7 +2,7 @@
 
 .current:hover { color: orange; }
 
-body { background-color: black; color: white; position: absolute; font-family: 'Julius Sans One', sans-serif; text-align: center; margin: 0px; overflow: scroll; top: 0px; bottom: 0px; width: 100%; }
+body { background-color: #fffafa; color: #586E75; position: absolute; font-family: 'Julius Sans One', sans-serif; text-align: center; margin: 0px; overflow: scroll; top: 0px; bottom: 0px; width: 100%; }
 
 .mainimg { width: 100%; height: 100%; }
 
@@ -43,3 +43,17 @@ body { background-color: black; color: white; position: absolute; font-family: '
 .content { padding: 1rem 10rem 1rem 10rem; }
 
 iframe { padding: 1rem; }
+
+.accordion { background-color: #586E75; color: #fffafa; cursor: pointer; padding: 1rem; width: 100%; border: none; text-align: left; outline: none; font-size: 1.2rem; transition: 0.4s; border-radius: 1rem 1rem 0rem 0rem; }
+
+.active, .accordion:hover { background-color: #ccc; }
+
+.panel { padding: 0 1rem; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; }
+
+div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; }
+
+div.gallery:hover { border: 1px solid #777; }
+
+div.gallery img { width: 100%; height: auto; border-radius: 1rem; }
+
+div.desc { padding: 1rem; text-align: center; }
