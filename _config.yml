@@ -22,7 +22,7 @@ title: prtysh
 email: prtyshrmn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
    a portfolio website
-baseurl: "/music.html" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "prtysh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: prtyshrmn
 github_username:  prtysh

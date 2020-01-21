@@ -8,10 +8,11 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Changa|IBM+Plex+Mono|Julius+Sans+One|Philosopher|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- <script src="/assets/js/navigation.js"></script> --> 
     </head>
   <body>
-        <nav id="navigation"> 
+        <nav id="navigation" class="navbar navbar-light bg-dark"> 
   <!-- <a href="/" > Home </a> -->
   <!-- <a href="/about.html" >  About </a> -->
 
@@ -38,15 +39,15 @@
   <!--  -->
 
   
-    <a href="/"  class="navbar" >> Home</a>
+    <a href="/"   >> Home</a>
   
-    <a href="/about.html"  class="navbar" >> About</a>
+    <a href="/about.html"   >> About</a>
   
-    <a href="/portfolio.html"  class="navbar" >> Portfolio</a>
+    <a href="/portfolio.html"   >> Portfolio</a>
   
     <a href="/music.html" class="current" >> Music</a>
   
-    <a href="/drawings.html"  class="navbar" >> Drawings</a>
+    <a href="/drawings.html"   >> Drawings</a>
   
 
 </nav>
@@ -60,25 +61,36 @@
   </head>
   <body>
 	  <h4> > selected music works </h4>
-	  <iframe style="border: 0; width: 60%; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/track=2199757560/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://thewinterscapes.bandcamp.com/track/the-reckoning-a-betrayal">The Reckoning, A Betrayal by thewinterscapes</a></iframe>
-	  <iframe width="60%" height="315" src="https://www.youtube.com/embed/Pq190BFw64w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  <iframe width="60%" height="315" src="https://www.youtube.com/embed/4blozVGADAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  <iframe width="60%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317645167&color=%2300ffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-	  <iframe width="60%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314702812&color=%2300ffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+	  <div class="embed-responsive">
+            <iframe class="embed-responsive-item" src="https://bandcamp.com/EmbeddedPlayer/track=2199757560/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://thewinterscapes.bandcamp.com/track/the-reckoning-a-betrayal">The Reckoning, A Betrayal by thewinterscapes</a></iframe>
+       </div>
+	  
+<div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Pq190BFw64w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+
+<div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4blozVGADAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>	  
+	  <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317645167&color=%2300ffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<div class="embed-responsive" >
+      <iframe class="embed-responsive-item" style="height=60" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317645167&color=%2300ffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       </div>	  
+
+<div class="embed-responsive ">
+      <iframe class="embed-responsive-item" height="60" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314702812&color=%2300ffff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+       </div>	  
+
+
+	  
+	  
   </body>
 </html>
 
         </div>
-        <div class="footer">
-            <a href="https://instagram.com/prtyshrmn/" target="_blank" class="fa fa-instagram"></a>
-            <a href="https://soundcloud.com/pratyush-raman/tracks" target="_blank" class="fa fa-soundcloud"></a>
-            <a href="https://github.com/prtysh/" target="_blank" class="fa fa-github"></a>
-            <a href="https://www.youtube.com/user/prtysh/videos?view=0&sort=dd&shelf_id=0" target="_blank" class="fa fa-youtube"></a>
-            <a href="https://www.deviantart.com/prtyshrmn" target="_blank" class="fa fa-deviantart"></a>
-            <a href="https://thewinterscapes.bandcamp.com/" target="_blank" class="fa fa-bandcamp"></a>
-        </div>
         <script type="text/javascript" src="/assets/js/navigation.js"></script>
         <script type="text/javascript" src="/assets/js/accordion.js"></script>
+        <script type="text/javascript" src="/assets/js/gallery.js"></script>
   </body>
 </html>
 
