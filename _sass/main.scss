@@ -3,7 +3,7 @@ body {
     // color: #586E75;
     color: #666666;
     position: absolute;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif !important;
     text-align: center;
     margin: 0px;
     overflow: scroll;
@@ -83,6 +83,7 @@ body {
     overflow: hidden;
     text-align: right;
     transition: max-height 0.2s ease-out;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 div.gallery {
@@ -91,6 +92,7 @@ div.gallery {
     float: left;
     width: 20%;
     border-radius: 1rem;
+    font-family: 'Julius Sans One', sans-serif ;
 }
 
 div.gallery:hover {

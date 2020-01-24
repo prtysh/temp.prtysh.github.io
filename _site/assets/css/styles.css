@@ -1,4 +1,4 @@
-body { background-color: #fffafa; color: #666666; position: absolute; font-family: 'Julius Sans One', sans-serif; text-align: center; margin: 0px; overflow: scroll; top: 0px; bottom: 0px; width: 100%; height: 100%; }
+body { background-color: #fffafa; color: #666666; position: absolute; font-family: 'Julius Sans One', sans-serif !important; text-align: center; margin: 0px; overflow: scroll; top: 0px; bottom: 0px; width: 100%; height: 100%; }
 
 .footer { position: fixed; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
@@ -18,9 +18,9 @@ body { background-color: #fffafa; color: #666666; position: absolute; font-famil
 
 .active, .accordion:hover { background-color: #ccc; }
 
-.panelx { padding: 0 1rem; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; }
+.panelx { padding: 0 1rem; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; font-family: 'IBM Plex Mono', monospace; }
 
-div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; }
+div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; font-family: "Julius Sans One", sans-serif; }
 
 div.gallery:hover { border: 1px solid #777; }
 
