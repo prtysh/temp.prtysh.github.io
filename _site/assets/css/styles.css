@@ -8,34 +8,32 @@ body { background-color: #fffafa; color: #666666; position: absolute; font-famil
 
 .sticky + .content { padding-top: 2rem; }
 
-.fa { padding: 1rem; font-size: 2rem !important; width: 2rem; text-align: center; text-decoration: none; border-radius: 25%; opacity: 0.9; color: #666666; }
+.fa { padding: 1rem; font-size: 2rem !important; width: 2rem; text-align: center; text-decoration: none; opacity: 0.9; color: #666666; }
 
 .fa:hover { opacity: 0.4; }
 
 .content { padding: 1rem 3rem 1rem 3rem; }
 
-.accordion { background-color: #666666; color: #fffafa; cursor: pointer; padding: 1rem; width: 100%; border: none; text-align: left; outline: none; font-size: 1.2rem; transition: 0.4s; border-radius: 1rem 1rem 0rem 0rem; }
+.accordion { background-color: #666666; color: #fffafa; cursor: pointer; padding: 1rem; width: 100%; border: none; text-align: left; outline: none; font-size: 1.2rem; transition: 0.4s; }
 
 .active, .accordion:hover { background-color: #ccc; }
 
 .panelx { padding: 0 1rem; overflow: hidden; text-align: right; transition: max-height 0.2s ease-out; font-family: 'IBM Plex Mono', monospace; }
 
-div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; border-radius: 1rem; font-family: "Julius Sans One", sans-serif; }
+div.gallery { margin: 1rem; border: 1px solid #ccc; float: left; width: 20%; font-family: "Julius Sans One", sans-serif; }
 
 div.gallery:hover { border: 1px solid #777; }
 
-div.gallery img { width: 100%; height: auto; border-radius: 1rem 1rem 0rem 0rem; }
+div.gallery img { width: 100%; height: auto; }
 
 div.desc { padding: 1rem; text-align: center; }
 
-.iframe-container { overflow: hidden; padding-top: 56.25%; position: relative; }
-
-.iframe-container iframe { border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+.iframe-container { overflow: hidden; padding-top: 56.25%; padding-botton: 1rem; position: relative; }
 
 /* 4x3 Aspect Ratio */
 .iframe-container-4x3 { padding-top: 75%; }
 
-.aboutimg { width: 100%; border-radius: 1rem; }
+.aboutimg { width: 100%; }
 
 figure { display: flex; align-items: center; }
 
