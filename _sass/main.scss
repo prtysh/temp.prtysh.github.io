@@ -144,3 +144,21 @@ figure {
 figcaption {
     width:100%;
 }
+
+.fronttext {
+    padding-top: 10rem; 
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: underline;
+    z-index:1;
+}
+
+.subtext {
+    font-size: 0.8rem;
+    font-family: 'IBM Plex Mono', monospace;
+    z-index:1;
+}
+
+.about {
+    font-family: 'IBM Plex Mono', monospace;
+}
