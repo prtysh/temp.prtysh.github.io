@@ -170,10 +170,10 @@ figcaption {
 @media screen and (max-width: 800px) {
     .nav-item{
         padding: 0rem !important;
-        font-size: 2rem;
+        font-size: 1.5rem !important;
     }
   .fronttext{
-      padding-top: 2rem;
-    font-size: 3rem;
+      padding-top: 2rem !important;
+    font-size: 3rem !important;
   }
 }
