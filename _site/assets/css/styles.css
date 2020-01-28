@@ -45,7 +45,8 @@ figcaption { width: 100%; }
 
 .nav-item { padding: 2rem !important; font-size: 1rem; }
 
-@media screen and (max-width: 800px) { .fronttext { padding-top: 2rem; font-size: 2rem; } }
+@media screen and (max-width: 800px) { .nav-item { padding: 0rem !important; }
+  .fronttext { padding-top: 2rem; font-size: 2rem; } }
 .row { display: flex; width: 100%; flex-wrap: wrap; padding: 0 4px; }
 
 /* Create four equal columns that sits next to each other */
