@@ -166,3 +166,10 @@ figcaption {
     padding: 2rem !important;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 800px) {
+  .fronttext{
+      padding-top: 2rem;
+    font-size: 2rem;
+  }
+}
