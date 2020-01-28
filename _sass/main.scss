@@ -1,7 +1,7 @@
 body {
-    background-color: #fffafa;
+    background-color: black !important;
     // color: #586E75;
-    color: #666666;
+    color: #606060 !important;
     position: absolute;
     font-family: 'Julius Sans One', sans-serif !important;
     text-align: center;
@@ -46,7 +46,7 @@ body {
     // border-radius: 25%;
     opacity:0.9;
     // color:#586e75;
-    color: #666666;
+    color: #fffafa;
 
 }
 
@@ -60,8 +60,8 @@ body {
 
 .accordion {
     // background-color: #586E75;
-    background-color: #666666;
-    color:#fffafa;
+    background-color: none !important;
+    color: black;
     cursor: pointer;
     padding: 1rem;
     width: 100%;
@@ -71,10 +71,6 @@ body {
     font-size: 1.2rem;
     transition: 0.4s;
     // border-radius: 1rem 1rem 0rem 0rem; 
-}
-
-.active, .accordion:hover {
-    background-color: #ccc;
 }
 
 .panelx {
@@ -162,4 +158,9 @@ figcaption {
 
 .about {
     font-family: 'IBM Plex Mono', monospace;
+}
+
+.nav-item {
+    padding: 2rem !important;
+    font-size: 1vw;
 }
