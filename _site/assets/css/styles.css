@@ -45,7 +45,7 @@ figcaption { width: 100%; }
 
 .nav-item { padding: 2rem !important; font-size: 1rem; }
 
-@media screen and (max-width: 800px) { .nav-item { padding: 0rem !important; font-size: 1.5rem !important; }
+@media screen and (max-width: 1080px) { .nav-item { padding: 0rem !important; font-size: 1.5rem !important; }
   .fronttext { padding-top: 2rem !important; font-size: 3rem !important; } }
 .row { display: flex; width: 100%; flex-wrap: wrap; padding: 0 4px; }
 
