@@ -37,13 +37,13 @@ figure { display: flex; align-items: center; }
 
 figcaption { width: 100%; }
 
-.fronttext { padding-top: 10rem; font-size: 1.2rem; font-family: 'IBM Plex Mono', monospace; text-decoration: underline; z-index: 1; }
+.fronttext { padding-top: 10rem; font-size: 16px; font-family: 'IBM Plex Mono', monospace; text-decoration: underline; z-index: 1; }
 
-.subtext { font-size: 0.8rem; font-family: 'IBM Plex Mono', monospace; z-index: 1; }
+.subtext { font-size: 13px; font-family: 'IBM Plex Mono', monospace; z-index: 1; }
 
 .about { font-family: 'IBM Plex Mono', monospace; }
 
-.nav-item { padding: 2rem !important; font-size: 1vw; }
+.nav-item { padding: 2rem !important; font-size: 1rem; }
 
 .row { display: flex; width: 100%; flex-wrap: wrap; padding: 0 4px; }
 
